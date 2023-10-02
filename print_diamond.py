@@ -23,8 +23,11 @@ def print_diamond(n, color_code):
         print(f"\033[94mPlease provide an odd integer.")
         return
 
+print_header("Laboratory Activity 01 ~ Python Review", 96)
+
 # run the program
 argu_n = 5
 print_diamond(argu_n, 95)
 
 # end
+print("\033[93mGreat Job!")
