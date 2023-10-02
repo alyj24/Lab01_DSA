@@ -22,7 +22,9 @@ def print_diamond(n, color_code):
     if n % 2 == 0:
         print(f"\033[94mPlease provide an odd integer.")
         return
-    
+
 # run the program
+argu_n = 5
+print_diamond(argu_n, 95)
+
 # end
-print_header("Laboratory Activity 01 ~ Python Review", 96)
